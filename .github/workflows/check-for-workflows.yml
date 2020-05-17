@@ -1,0 +1,31 @@
+name: Check for workflows
+on:
+  schedule:
+  - cron: '0 13 * * *'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Check out
+      uses: actions/checkout@v2
+
+    - name: Install yq
+      run: |
+        sudo wget -LO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/download/3.3.0/yq_linux_amd64
+        sudo chmod +x /usr/local/bin/yq
+
+    - name: Generate
+      run: |
+        ./generate.sh -o samples/gcp.md -i samples/gcp-repos \
+          -i https://raw.githubusercontent.com/arjun024/actions-dashboard/master/samples/some-other-gcp-repos
+        if [ -z "$(git status -s -- samples/gcp.md)" ]; then
+          echo No changes to commit
+          exit 0
+        fi
+        git config user.email "check-action@github"
+        git config user.name "check-action"
+        git add samples/gcp.md
+        git commit -m "Update dashboard markdown"
+        git push origin master
