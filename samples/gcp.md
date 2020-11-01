@@ -22,7 +22,7 @@ GoogleCloudPlatform/click-to-deploy
 
 GoogleCloudPlatform/terraformer
 
-[![linter](https://github.com/GoogleCloudPlatform/terraformer/workflows/linter/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"linter") [![tests](https://github.com/GoogleCloudPlatform/terraformer/workflows/tests/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"tests") 
+[![CodeQL](https://github.com/GoogleCloudPlatform/terraformer/workflows/CodeQL/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"CodeQL") [![linter](https://github.com/GoogleCloudPlatform/terraformer/workflows/linter/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"linter") [![tests](https://github.com/GoogleCloudPlatform/terraformer/workflows/tests/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"tests") 
 
 GoogleCloudPlatform/cloud-run-button
 
