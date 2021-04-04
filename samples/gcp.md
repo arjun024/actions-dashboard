@@ -22,7 +22,7 @@ GoogleCloudPlatform/click-to-deploy
 
 GoogleCloudPlatform/terraformer
 
-[![CodeQL](https://github.com/GoogleCloudPlatform/terraformer/workflows/CodeQL/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"CodeQL") [![linter](https://github.com/GoogleCloudPlatform/terraformer/workflows/linter/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"linter") [![tests](https://github.com/GoogleCloudPlatform/terraformer/workflows/tests/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"tests") 
+[![CodeQL](https://github.com/GoogleCloudPlatform/terraformer/workflows/CodeQL/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"CodeQL") [![linter](https://github.com/GoogleCloudPlatform/terraformer/workflows/linter/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"linter") [![tagged-release](https://github.com/GoogleCloudPlatform/terraformer/workflows/tagged-release/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"tagged-release") [![Close stale issues and PRs](https://github.com/GoogleCloudPlatform/terraformer/workflows/Close%20stale%20issues%20and%20PRs/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"Close%20stale%20issues%20and%20PRs") [![tests](https://github.com/GoogleCloudPlatform/terraformer/workflows/tests/badge.svg)](https://github.com/GoogleCloudPlatform/terraformer/actions?query=workflow:"tests") 
 
 GoogleCloudPlatform/cloud-run-button
 
